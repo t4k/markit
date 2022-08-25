@@ -4,6 +4,15 @@ jobs:
   pandocker:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - run: mkdir output
       - uses: docker://pandoc/core
         with:
-          args: "--version"  # gets appended to pandoc command
+          args: >-  # allows you to break string into multiple lines
+            --standalone
+            --output=index.html
+            README.md
+      - uses: actions/upload-artifact@v3
+        with:
+          name: output
+          path: output

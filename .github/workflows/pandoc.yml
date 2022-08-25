@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: docker://pandoc/core
         with:
-          args: "--help"  # gets appended to pandoc command
+          args: "--version"  # gets appended to pandoc command

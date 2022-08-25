@@ -10,7 +10,7 @@ jobs:
         with:
           args: >-  # allows you to break string into multiple lines
             --standalone
-            --output=index.html
+            --output=output/index.html
             README.md
       - uses: actions/upload-artifact@v3
         with:

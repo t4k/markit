@@ -30,18 +30,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - run: mkdir _site
+      - run: mkdir output
       - uses: docker://pandoc/core
         with:
           args: >-  # allows you to break string into multiple lines
             --standalone
-            --output=_site/index.html
+            --output=output/index.html
             README.md
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Upload entire repository
-          path: '.'
+          path: 'output'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1

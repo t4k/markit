@@ -1,0 +1,7 @@
+name: info
+on: workflow_dispatch
+jobs:
+  rock-n-roll:
+    runs-on: ubuntu-latest
+    steps:
+      - run: hostname -IA

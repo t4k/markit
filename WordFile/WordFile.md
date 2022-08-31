@@ -2,7 +2,8 @@
 title: Interview with David Baltimore
 interviewee: David Baltimore
 interviewer: Sara Lippincott
-dates:  - 2009-10-13
+dates:
+  - 2009-10-13
   - 2009-11-19
   - 2009-11-25
 abstract: Interview in three sessions, October-November 2009, with David

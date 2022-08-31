@@ -3,7 +3,9 @@ title: Interview with David Baltimore
 interviewee: David Baltimore
 interviewer: Sara Lippincott
 dates:
-  - 2009-10-13  - 2009-11-19  - 2009-11-25
+  - 2009-10-13
+  - 2009-11-19
+  - 2009-11-25
 abstract: Interview in three sessions, October-November 2009, with David
           Baltimore, Robert Andrews Millikan Professor of Biology and
           president emeritus of Caltech (1997-2006). He recalls his

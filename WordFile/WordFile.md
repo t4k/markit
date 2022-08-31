@@ -34,7 +34,6 @@ abstract: Interview in three sessions, October-November 2009, with David
           lab; and the prospects for human enhancement and understanding
           of consciousness.
 ---
-
 -   [Here is a heading](#here-is-a-heading){#toc-here-is-a-heading}
     -   [Here is a
         subheading](#here-is-a-subheading){#toc-here-is-a-subheading}
@@ -61,4 +60,3 @@ The last few paragraphs.
 Here.
 
 And here.
-

@@ -6,9 +6,9 @@ dates:
   - 2009-10-13
   - 2009-11-19
   - 2009-11-25
-abstract: Interview in three sessions, October-November 2009, with David
-          Baltimore, Robert Andrews Millikan Professor of Biology and
-          president emeritus of Caltech (1997-2006). He recalls his
+abstract: edit Interview in three sessions, October-November 2009, with
+          David Baltimore, Robert Andrews Millikan Professor of Biology
+          and president emeritus of Caltech (1997-2006). He recalls his
           childhood and early education in Great Neck, NY, his aptitude
           for science, and a summer at the Jackson Laboratory in Maine
           (1955), which confirmed his vocation. He discusses interest in

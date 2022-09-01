@@ -1,5 +1,5 @@
 ---
-title: Interview with David Baltimore EDIT
+title: Interview with David Baltimore
 interviewee: David Baltimore
 interviewer: Sara Lippincott
 dates:

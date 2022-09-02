@@ -21,8 +21,39 @@ jobs:
           sudo apt-get update
           sudo apt-get install pandoc
 
+      - name: Create build directory
+        run: mkdir -p build
+
       - name: Process changed files
         run: for file in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }});
           do
             python _generate.py "$file";
           done
+
+      - name: Integrate generated files
+        run: rsync -a build/* web/*
+        
+      - name: Configure Git identity
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+      - name: Commit new files
+        run: if [ -n "$(git ls-files --others)" ];
+          then
+            git ls-files --others | xargs git add --all;
+            git commit -m "🟢 new files";
+          fi
+      - name: Commit modified files
+        run: if [ -n "$(git ls-files --modified)" ];
+          then
+            git ls-files --modified | xargs git add --all;
+            git commit -m "🟡 modified files";
+          fi
+      - name: Commit deleted files
+        run: if [ -n "$(git ls-files --deleted)" ];
+          then
+            git ls-files --deleted | xargs git add --all;
+            git commit -m "🔴 deleted files";
+          fi
+      - name: Push changes
+        run: git push

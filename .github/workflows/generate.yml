@@ -1,0 +1,28 @@
+name: Generate HTML
+on: workflow_dispatch
+jobs:
+  generate-html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2  # in order to determine changed files
+
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.x
+
+      - name: Install other packages
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          sudo apt-get update
+          sudo apt-get install pandoc
+
+      - name: Process changed files
+        run: for file in $(git diff-tree --no-commit-id --name-only -r ${{ github.sha }});
+          do
+            python _generate.py "$file";
+          done

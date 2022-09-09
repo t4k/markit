@@ -23,7 +23,7 @@ archival_object_uri: /repositories/2/archival_objects/117933
 component_id: WordMS-OH-2022
 dates:
 - 2022-08-31
-- 2022-09-07
+- 2022-09-01
 interviewee: Albert Einstein
 interviewer: Heidi Aspaturian
 title: TEST Oral History Archival Object

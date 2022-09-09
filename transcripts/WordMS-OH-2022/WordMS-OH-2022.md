@@ -19,6 +19,8 @@ abstract: |
   suscipit. Proin gravida libero ut felis sollicitudin vulputate. Etiam
   sed eleifend tellus, vel finibus elit. Suspendisse arcu tortor,
   ultrices aliquet consequat sed, porttitor sit amet sapien.
+archival_object_uri: /repositories/2/archival_objects/117933
+component_id: WordMS-OH-2022
 dates:
 - 2022-08-31
 - 2022-09-07

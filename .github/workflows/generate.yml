@@ -1,5 +1,9 @@
 name: Generate HTML
-on: workflow_dispatch
+on:
+  push:
+    paths:
+      - "**.md"
+  workflow_dispatch:
 jobs:
   generate-html:
     runs-on: ubuntu-latest
@@ -31,8 +35,11 @@ jobs:
           done
 
       - name: Integrate generated files
-        run: rsync -a build/* web/*
-        
+        run: rsync --remove-source-files -av build/ transcripts/
+
+      - name: 🐞
+        run: ls transcripts/WordMS-OH-2022
+
       - name: Configure Git identity
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"

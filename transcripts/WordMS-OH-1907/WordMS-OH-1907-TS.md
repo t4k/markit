@@ -21,6 +21,8 @@ And a paragraph.
 
 And another.
 
+![this is alt text and caption text](WordMS-OH-1907-sunset.jpg)
+
 # A final heading
 
 The last few paragraphs.

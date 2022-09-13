@@ -21,7 +21,7 @@ def main(file):
                 "--to=html",
                 "--template=_html.tpl",
                 f"--output=build/{file_segments[1]}/{file_segments[1]}.html",
-                f"transcripts/{file_segments[1]}/{file_segments[1]}.md",
+                f"transcripts/{file_segments[1]}/{file_segments[1]}-TS.md",
             ]
         )
         print(f"🐞 file generated: build/{file_segments[1]}/{file_segments[1]}.html")

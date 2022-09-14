@@ -24,6 +24,8 @@ And a paragraph.
 
 And another.
 
+![alt text and caption here](WordMS-OH-1901-Cappadocia.jpg "title text here (is useless in most browsers; repurpose?)")
+
 # A final heading
 
 The last few paragraphs.

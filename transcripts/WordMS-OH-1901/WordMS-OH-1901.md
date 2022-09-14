@@ -1,6 +1,8 @@
 ---
 archival_object_uri: /repositories/2/archival_objects/117934
 component_id: WordMS-OH-1901
+interviewee: Albert Einstein
+interviewer: Heidi Aspaturian
 title: TEST 1
 ---
 

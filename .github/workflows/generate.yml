@@ -25,6 +25,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install pandoc
 
+      - name: 🐞
+        run: pandoc --version
+
       - name: Create build directory
         run: mkdir -p build
 

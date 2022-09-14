@@ -19,7 +19,7 @@ def main(file):
                 "--standalone",
                 "--from=markdown",
                 "--to=html",
-                "--template=_html.tpl",
+                "--template=templates/default.html",
                 f"--output=build/{file_segments[1]}/{file_segments[1]}.html",
                 f"transcripts/{file_segments[1]}/{file_segments[1]}.md",
             ]

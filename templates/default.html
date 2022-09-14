@@ -49,6 +49,16 @@ $endfor$
 $if(date)$
 <p class="date">$date$</p>
 $endif$
+$if(interviewer)$
+<div class="interviewer">$interviewer$</div>
+$endif$
+$if(dates)$
+<ul class="dates">
+  $for(dates)$
+  <li>$dates$</li>
+  $endfor$
+</ul>
+$endif$
 $if(abstract)$
 <div class="abstract">
 <div class="abstract-title">$abstract-title$</div>

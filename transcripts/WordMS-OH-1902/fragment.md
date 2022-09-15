@@ -1,15 +1,3 @@
----
-abstract: Abstraction distraction. UPDATED.
-archival_object_uri: /repositories/2/archival_objects/117962
-component_id: WordMS-OH-1901
-dates:
-- 2022-08-31
-- 2022-09-01
-interviewee: Albert Einstein
-interviewer: Tommy "refactor" Keswick
-title: TEST 1
----
-
 -   [Here is a heading](#here-is-a-heading){#toc-here-is-a-heading}
     -   [Here is a
         subheading](#here-is-a-subheading){#toc-here-is-a-subheading}
@@ -26,9 +14,6 @@ Here is another paragraph.
 And a paragraph.
 
 And another.
-
-![alt text and caption
-here](WordMS-OH-1901-Cappadocia.jpg "title text here (is useless in most browsers; repurpose?)")
 
 # A final heading
 

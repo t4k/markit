@@ -5,17 +5,8 @@ on:
       - "**.md"
   workflow_dispatch:
 jobs:
-  consecutiveness:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: mktcode/consecutive-workflow-action@e289d6339c50a882d1cfb79fc92f0ae00b560cb7
-      with:
-        interval: 1
-        token: ${{ secrets.GITHUB_TOKEN }}
-
   generate-html:
     runs-on: ubuntu-latest
-    needs: [ consecutiveness ]
     steps:
       - name: Checkout
         uses: actions/checkout@v3

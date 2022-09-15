@@ -1,5 +1,5 @@
 ---
-abstract: Abstraction distraction.
+abstract: Abstraction distraction. UPDATED.
 archival_object_uri: /repositories/2/archival_objects/117962
 component_id: WordMS-OH-1901
 dates:

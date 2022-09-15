@@ -6,7 +6,7 @@ dates:
 - 2022-08-31
 - 2022-09-01
 interviewee: Albert Einstein
-interviewer: Tommy "Cool It Down" Keswick
+interviewer: Tommy "Synchronous" Keswick
 title: TEST 1
 ---
 

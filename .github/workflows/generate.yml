@@ -39,9 +39,6 @@ jobs:
       - name: Integrate generated files
         run: rsync --remove-source-files -av build/ transcripts/
 
-      - name: 🐞
-        run: ls transcripts/WordMS-OH-2022
-
       - name: Configure Git identity
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"

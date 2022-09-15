@@ -1,5 +1,5 @@
 ---
-abstract: Abstract after the fact. UPDATED.
+abstract: Abstract after the fact. UPDATED..
 archival_object_uri: /repositories/2/archival_objects/117963
 component_id: WordMS-OH-1902
 dates:

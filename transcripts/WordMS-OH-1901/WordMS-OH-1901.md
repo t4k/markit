@@ -1,5 +1,11 @@
 ---
-abstract: Abstraction distraction. UPDATED.
+abstract: |
+  Let's work this multi-paragraph abstract deal.
+
+  We want to see what `\n`{=tex}`\n `{=tex}will do; also what about
+  other possible escaped characters? \$dollar or "double-quote or
+  'single-quote or %percent or #pound or ---triple-hyphen or
+  ...triple-period or /slash or `\backslash `{=tex}or \\double-backslash
 archival_object_uri: /repositories/2/archival_objects/117962
 component_id: WordMS-OH-1901
 dates:

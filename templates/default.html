@@ -26,12 +26,6 @@ $endfor$
 $for(header-includes)$
   $header-includes$
 $endfor$
-$if(math)$
-  $math$
-$endif$
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 $for(include-before)$
@@ -49,10 +43,14 @@ $endfor$
 $if(date)$
 <p class="date">$date$</p>
 $endif$
+$if(interviewee)$
+<div class="interviewee-wrapper">Interviewee: <span class="interviewee">$interviewee$</span></div>
+$endif$
 $if(interviewer)$
-<div class="interviewer">$interviewer$</div>
+<div class="interviewer-wrapper">Interviewer: <span class="interviewer">$interviewer$</span></div>
 $endif$
 $if(dates)$
+<div>Interview Sessions:</div>
 <ul class="dates">
   $for(dates)$
   <li>$dates$</li>
